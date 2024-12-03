@@ -4,11 +4,11 @@
   
 **Dockerビルド**  
     1.GitHub からクローン  
-  　　`git clone git@github.com:coachtech-material/laravel-docker-template.git  
+  　`git clone git@github.com:coachtech-material/laravel-docker-template.git`    
     2.リポジトリ名の変更  
-    　`mv laravel-docker-template <任意のリポジトリ名>`  
+    `mv laravel-docker-template <任意のリポジトリ名>`  
     3.DockerDesktopアプリを立ち上げる  
-　　  `docker-compose up -d --build`  
+　　`docker-compose up -d --build`  
   
 ## Laravel環境構築  
 　　1.PHPコンテナ内にログイン  
@@ -19,12 +19,12 @@
      `cp .env.example .env`  
 　　4..envに以下の環境変数に変更  
 　　``` text  
-　　DB_CONNECTION=mysql  
-　　DB_HOST=mysql  
-　　DB_PORT=3306  
-　　DB_DATABASE=laravel_db  
-　　DB_USERNAME=laravel_user  
-　　DB_PASSWORD=laravel_pass  
+　　DB_CONNECTION=mysql    
+　　DB_HOST=mysql    
+　　DB_PORT=3306    
+　　DB_DATABASE=laravel_db    
+　　DB_USERNAME=laravel_user    
+　　DB_PASSWORD=laravel_pass    
 　　```  
 　　5.アプリケーションキーの作成  
 　　``` bash  
