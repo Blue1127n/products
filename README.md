@@ -38,7 +38,7 @@
 - MySQL8.0.26  
   
 ## ER図  
-![ER図](src/images/erd.png)  
+
   
 ## URL  
 - 開発環境：http://localhost/  
